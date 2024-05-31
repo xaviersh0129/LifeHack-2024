@@ -8,9 +8,10 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
+api_key = os.getenv('api_key')
 
 # Load the GeoJSON file
-with open('/Users/ohungchan/Downloads/singapore_with_police_stations.geojson', 'r') as f:
+with open('Datasets/singapore_with_police_stations.geojson', 'r') as f:
     geojson_data = geojson.load(f)
 
 # Function to extract meaningful name from the Description field
@@ -31,12 +32,6 @@ for feature in geojson_data['features']:
         name = extract_name(description) if description else 'Unknown'
         police_stations.append((coordinates[1], coordinates[0], name))
 
-# Fixed spot coordinates (latitude, longitude)
-fixed_spot = (1.3698, 103.8461)  # Replace with your fixed spot coordinates
-
-# Google Maps API key
-api_key = os.getenv('api_key')
-
 # Function to chunk a list into smaller lists
 def chunk_list(lst, chunk_size):
     for i in range(0, len(lst), chunk_size):
@@ -56,6 +51,16 @@ async def get_travel_times(session, api_key, origin, destinations):
         return await response.json()
 
 # Asynchronous function to make a request to the Geocoding API
+async def get_coordinates(session, api_key, address):
+    url = 'https://maps.googleapis.com/maps/api/geocode/json'
+    params = {
+        'address': address,
+        'key': api_key
+    }
+    async with session.get(url, params=params) as response:
+        return await response.json()
+
+# Asynchronous function to make a request to the Geocoding API for reverse geocoding
 async def get_address(session, api_key, lat, lon):
     url = 'https://maps.googleapis.com/maps/api/geocode/json'
     params = {
@@ -67,13 +72,26 @@ async def get_address(session, api_key, lat, lon):
 
 # Asynchronous main function to handle multiple requests
 async def main():
-    max_elements = 25  # Standard usage limit
-    chunks = list(chunk_list(police_stations, max_elements))
+    address = input("Enter the address: ")
 
     # Create SSL context to use certifi certificates
     ssl_context = ssl.create_default_context(cafile=certifi.where())
 
     async with aiohttp.ClientSession(connector=aiohttp.TCPConnector(ssl=ssl_context)) as session:
+        # Get coordinates for the input address
+        address_response = await get_coordinates(session, api_key, address)
+        if address_response['status'] != 'OK':
+            print("Error in Geocoding API request:", address_response['status'])
+            if 'error_message' in address_response:
+                print("Error message:", address_response['error_message'])
+            return
+        
+        coordinates = address_response['results'][0]['geometry']['location']
+        fixed_spot = (coordinates['lat'], coordinates['lng'])
+
+        max_elements = 25  # Standard usage limit
+        chunks = list(chunk_list(police_stations, max_elements))
+
         tasks = []
         for chunk in chunks:
             task = asyncio.ensure_future(get_travel_times(session, api_key, fixed_spot, chunk))
