@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Results = ({ stations }) => {
+const Results = ({ address, stations }) => {
   if (!stations.length) {
     return <div>No results found.</div>;
   }
@@ -8,6 +8,7 @@ const Results = ({ stations }) => {
   return (
     <div>
       <h2>Top 3 Closest Police Stations</h2>
+      <p>Address submitted: {address}</p>
       <ul>
         {stations.map((station, index) => (
           <li key={index}>

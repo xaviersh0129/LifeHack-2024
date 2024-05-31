@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import Form from './Form';
 import Results from './Results';
+import './App.css'; // Import your CSS file for custom styling
+
 
 const App = () => {
   const backendEndpoint = 'http://localhost:5000/api/closest_stations'; // Update to your backend endpoint
@@ -18,8 +20,8 @@ const App = () => {
   };
 
   return (
-    <div>
-      <h1>Police Station Finder</h1>
+    <div className="app-container">
+      <h1 className="app-title">Police Station Finder</h1>
       <Form onSubmit={handleSubmit} />
       <Results stations={stations} />
     </div>
