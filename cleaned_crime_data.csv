@@ -1,0 +1,452 @@
+year,value,Division,NPC
+2011,124.0,Central Police Division,Bukit Merah East NPC
+2011,125.0,Central Police Division,Marina Bay NPC
+2011,124.0,Central Police Division,Rochor NPC
+2011,135.0,Clementi Police Division,Bukit Merah West NPC
+2011,73.0,Clementi Police Division,Clementi NPC
+2011,83.0,Clementi Police Division,Jurong East NPC
+2011,89.0,Clementi Police Division,Queenstown NPC
+2011,67.0,Tanglin Police Division,Bishan NPC
+2011,32.0,Tanglin Police Division,Bukit Timah NPC
+2011,52.0,Tanglin Police Division,Kampong Java NPC
+2011,156.0,Tanglin Police Division,Orchard NPC
+2011,116.0,Tanglin Police Division,Toa Payoh NPC
+2011,74.0,Ang Mo Kio Police Division,Ang Mo Kio North NPC
+2011,59.0,Ang Mo Kio Police Division,Ang Mo Kio South NPC
+2011,128.0,Ang Mo Kio Police Division,Hougang NPC
+2011,,Ang Mo Kio Police Division,Punggol NPC
+2011,39.0,Ang Mo Kio Police Division,Sembawang NPC
+2011,115.0,Ang Mo Kio Police Division,Sengkang NPC
+2011,72.0,Ang Mo Kio Police Division,Serangoon NPC
+2011,91.0,Ang Mo Kio Police Division,Yishun North NPC
+2011,47.0,Ang Mo Kio Police Division,Yishun South NPC
+2011,199.0,Bedok Police Division,Bedok NPC
+2011,76.0,Bedok Police Division,Changi NPC
+2011,260.0,Bedok Police Division,Geylang NPC
+2011,77.0,Bedok Police Division,Marine Parade NPC
+2011,84.0,Bedok Police Division,Pasir Ris NPC
+2011,134.0,Bedok Police Division,Tampines NPC
+2011,114.0,Jurong Police Division,Bukit Batok NPC
+2011,55.0,Jurong Police Division,Bukit Panjang NPC
+2011,120.0,Jurong Police Division,Choa Chu Kang NPC
+2011,129.0,Jurong Police Division,Jurong West NPC
+2011,140.0,Jurong Police Division,Nanyang NPC
+2011,241.0,Jurong Police Division,Woodlands NPC
+2011,,Jurong Police Division,Woodlands East NPC
+2011,,Jurong Police Division,Woodlands West NPC
+2011,,Woodlands Police Division,Woodlands East NPC
+2011,,Woodlands Police Division,Woodlands West NPC
+2011,,Woodlands Police Division,Yishun North NPC
+2011,,Woodlands Police Division,Yishun South NPC
+2011,,Woodlands Police Division,Sembawang NPC
+2011,,Woodlands Police Division,Checkpoint
+2012,84.0,Central Police Division,Bukit Merah East NPC
+2012,106.0,Central Police Division,Marina Bay NPC
+2012,147.0,Central Police Division,Rochor NPC
+2012,105.0,Clementi Police Division,Bukit Merah West NPC
+2012,81.0,Clementi Police Division,Clementi NPC
+2012,67.0,Clementi Police Division,Jurong East NPC
+2012,93.0,Clementi Police Division,Queenstown NPC
+2012,43.0,Tanglin Police Division,Bishan NPC
+2012,48.0,Tanglin Police Division,Bukit Timah NPC
+2012,65.0,Tanglin Police Division,Kampong Java NPC
+2012,162.0,Tanglin Police Division,Orchard NPC
+2012,88.0,Tanglin Police Division,Toa Payoh NPC
+2012,61.0,Ang Mo Kio Police Division,Ang Mo Kio North NPC
+2012,71.0,Ang Mo Kio Police Division,Ang Mo Kio South NPC
+2012,119.0,Ang Mo Kio Police Division,Hougang NPC
+2012,,Ang Mo Kio Police Division,Punggol NPC
+2012,57.0,Ang Mo Kio Police Division,Sembawang NPC
+2012,87.0,Ang Mo Kio Police Division,Sengkang NPC
+2012,66.0,Ang Mo Kio Police Division,Serangoon NPC
+2012,72.0,Ang Mo Kio Police Division,Yishun North NPC
+2012,47.0,Ang Mo Kio Police Division,Yishun South NPC
+2012,218.0,Bedok Police Division,Bedok NPC
+2012,59.0,Bedok Police Division,Changi NPC
+2012,273.0,Bedok Police Division,Geylang NPC
+2012,52.0,Bedok Police Division,Marine Parade NPC
+2012,64.0,Bedok Police Division,Pasir Ris NPC
+2012,98.0,Bedok Police Division,Tampines NPC
+2012,67.0,Jurong Police Division,Bukit Batok NPC
+2012,56.0,Jurong Police Division,Bukit Panjang NPC
+2012,82.0,Jurong Police Division,Choa Chu Kang NPC
+2012,130.0,Jurong Police Division,Jurong West NPC
+2012,97.0,Jurong Police Division,Nanyang NPC
+2012,,Jurong Police Division,Woodlands NPC
+2012,114.0,Jurong Police Division,Woodlands East NPC
+2012,118.0,Jurong Police Division,Woodlands West NPC
+2012,,Woodlands Police Division,Woodlands East NPC
+2012,,Woodlands Police Division,Woodlands West NPC
+2012,,Woodlands Police Division,Yishun North NPC
+2012,,Woodlands Police Division,Yishun South NPC
+2012,,Woodlands Police Division,Sembawang NPC
+2012,,Woodlands Police Division,Checkpoint
+2013,95.0,Central Police Division,Bukit Merah East NPC
+2013,92.0,Central Police Division,Marina Bay NPC
+2013,146.0,Central Police Division,Rochor NPC
+2013,82.0,Clementi Police Division,Bukit Merah West NPC
+2013,60.0,Clementi Police Division,Clementi NPC
+2013,73.0,Clementi Police Division,Jurong East NPC
+2013,84.0,Clementi Police Division,Queenstown NPC
+2013,57.0,Tanglin Police Division,Bishan NPC
+2013,38.0,Tanglin Police Division,Bukit Timah NPC
+2013,63.0,Tanglin Police Division,Kampong Java NPC
+2013,135.0,Tanglin Police Division,Orchard NPC
+2013,77.0,Tanglin Police Division,Toa Payoh NPC
+2013,42.0,Ang Mo Kio Police Division,Ang Mo Kio North NPC
+2013,35.0,Ang Mo Kio Police Division,Ang Mo Kio South NPC
+2013,84.0,Ang Mo Kio Police Division,Hougang NPC
+2013,20.0,Ang Mo Kio Police Division,Punggol NPC
+2013,31.0,Ang Mo Kio Police Division,Sembawang NPC
+2013,54.0,Ang Mo Kio Police Division,Sengkang NPC
+2013,35.0,Ang Mo Kio Police Division,Serangoon NPC
+2013,74.0,Ang Mo Kio Police Division,Yishun North NPC
+2013,28.0,Ang Mo Kio Police Division,Yishun South NPC
+2013,173.0,Bedok Police Division,Bedok NPC
+2013,68.0,Bedok Police Division,Changi NPC
+2013,234.0,Bedok Police Division,Geylang NPC
+2013,62.0,Bedok Police Division,Marine Parade NPC
+2013,59.0,Bedok Police Division,Pasir Ris NPC
+2013,99.0,Bedok Police Division,Tampines NPC
+2013,74.0,Jurong Police Division,Bukit Batok NPC
+2013,49.0,Jurong Police Division,Bukit Panjang NPC
+2013,95.0,Jurong Police Division,Choa Chu Kang NPC
+2013,97.0,Jurong Police Division,Jurong West NPC
+2013,119.0,Jurong Police Division,Nanyang NPC
+2013,,Jurong Police Division,Woodlands NPC
+2013,93.0,Jurong Police Division,Woodlands East NPC
+2013,87.0,Jurong Police Division,Woodlands West NPC
+2013,,Woodlands Police Division,Woodlands East NPC
+2013,,Woodlands Police Division,Woodlands West NPC
+2013,,Woodlands Police Division,Yishun North NPC
+2013,,Woodlands Police Division,Yishun South NPC
+2013,,Woodlands Police Division,Sembawang NPC
+2013,,Woodlands Police Division,Checkpoint
+2014,103.0,Central Police Division,Bukit Merah East NPC
+2014,113.0,Central Police Division,Marina Bay NPC
+2014,126.0,Central Police Division,Rochor NPC
+2014,66.0,Clementi Police Division,Bukit Merah West NPC
+2014,71.0,Clementi Police Division,Clementi NPC
+2014,68.0,Clementi Police Division,Jurong East NPC
+2014,57.0,Clementi Police Division,Queenstown NPC
+2014,35.0,Tanglin Police Division,Bishan NPC
+2014,40.0,Tanglin Police Division,Bukit Timah NPC
+2014,51.0,Tanglin Police Division,Kampong Java NPC
+2014,138.0,Tanglin Police Division,Orchard NPC
+2014,60.0,Tanglin Police Division,Toa Payoh NPC
+2014,45.0,Ang Mo Kio Police Division,Ang Mo Kio North NPC
+2014,41.0,Ang Mo Kio Police Division,Ang Mo Kio South NPC
+2014,55.0,Ang Mo Kio Police Division,Hougang NPC
+2014,14.0,Ang Mo Kio Police Division,Punggol NPC
+2014,34.0,Ang Mo Kio Police Division,Sembawang NPC
+2014,57.0,Ang Mo Kio Police Division,Sengkang NPC
+2014,46.0,Ang Mo Kio Police Division,Serangoon NPC
+2014,50.0,Ang Mo Kio Police Division,Yishun North NPC
+2014,24.0,Ang Mo Kio Police Division,Yishun South NPC
+2014,150.0,Bedok Police Division,Bedok NPC
+2014,48.0,Bedok Police Division,Changi NPC
+2014,191.0,Bedok Police Division,Geylang NPC
+2014,39.0,Bedok Police Division,Marine Parade NPC
+2014,49.0,Bedok Police Division,Pasir Ris NPC
+2014,85.0,Bedok Police Division,Tampines NPC
+2014,44.0,Jurong Police Division,Bukit Batok NPC
+2014,44.0,Jurong Police Division,Bukit Panjang NPC
+2014,60.0,Jurong Police Division,Choa Chu Kang NPC
+2014,100.0,Jurong Police Division,Jurong West NPC
+2014,78.0,Jurong Police Division,Nanyang NPC
+2014,,Jurong Police Division,Woodlands NPC
+2014,107.0,Jurong Police Division,Woodlands East NPC
+2014,91.0,Jurong Police Division,Woodlands West NPC
+2014,,Woodlands Police Division,Woodlands East NPC
+2014,,Woodlands Police Division,Woodlands West NPC
+2014,,Woodlands Police Division,Yishun North NPC
+2014,,Woodlands Police Division,Yishun South NPC
+2014,,Woodlands Police Division,Sembawang NPC
+2014,,Woodlands Police Division,Checkpoint
+2015,83.0,Central Police Division,Bukit Merah East NPC
+2015,112.0,Central Police Division,Marina Bay NPC
+2015,109.0,Central Police Division,Rochor NPC
+2015,48.0,Clementi Police Division,Bukit Merah West NPC
+2015,54.0,Clementi Police Division,Clementi NPC
+2015,52.0,Clementi Police Division,Jurong East NPC
+2015,52.0,Clementi Police Division,Queenstown NPC
+2015,29.0,Tanglin Police Division,Bishan NPC
+2015,29.0,Tanglin Police Division,Bukit Timah NPC
+2015,43.0,Tanglin Police Division,Kampong Java NPC
+2015,108.0,Tanglin Police Division,Orchard NPC
+2015,51.0,Tanglin Police Division,Toa Payoh NPC
+2015,31.0,Ang Mo Kio Police Division,Ang Mo Kio North NPC
+2015,39.0,Ang Mo Kio Police Division,Ang Mo Kio South NPC
+2015,95.0,Ang Mo Kio Police Division,Hougang NPC
+2015,25.0,Ang Mo Kio Police Division,Punggol NPC
+2015,17.0,Ang Mo Kio Police Division,Sembawang NPC
+2015,51.0,Ang Mo Kio Police Division,Sengkang NPC
+2015,34.0,Ang Mo Kio Police Division,Serangoon NPC
+2015,49.0,Ang Mo Kio Police Division,Yishun North NPC
+2015,39.0,Ang Mo Kio Police Division,Yishun South NPC
+2015,103.0,Bedok Police Division,Bedok NPC
+2015,36.0,Bedok Police Division,Changi NPC
+2015,143.0,Bedok Police Division,Geylang NPC
+2015,47.0,Bedok Police Division,Marine Parade NPC
+2015,33.0,Bedok Police Division,Pasir Ris NPC
+2015,76.0,Bedok Police Division,Tampines NPC
+2015,54.0,Jurong Police Division,Bukit Batok NPC
+2015,47.0,Jurong Police Division,Bukit Panjang NPC
+2015,80.0,Jurong Police Division,Choa Chu Kang NPC
+2015,78.0,Jurong Police Division,Jurong West NPC
+2015,64.0,Jurong Police Division,Nanyang NPC
+2015,,Jurong Police Division,Woodlands NPC
+2015,50.0,Jurong Police Division,Woodlands East NPC
+2015,82.0,Jurong Police Division,Woodlands West NPC
+2015,,Woodlands Police Division,Woodlands East NPC
+2015,,Woodlands Police Division,Woodlands West NPC
+2015,,Woodlands Police Division,Yishun North NPC
+2015,,Woodlands Police Division,Yishun South NPC
+2015,,Woodlands Police Division,Sembawang NPC
+2015,,Woodlands Police Division,Checkpoint
+2016,55.0,Central Police Division,Bukit Merah East NPC
+2016,81.0,Central Police Division,Marina Bay NPC
+2016,80.0,Central Police Division,Rochor NPC
+2016,64.0,Clementi Police Division,Bukit Merah West NPC
+2016,37.0,Clementi Police Division,Clementi NPC
+2016,40.0,Clementi Police Division,Jurong East NPC
+2016,62.0,Clementi Police Division,Queenstown NPC
+2016,35.0,Tanglin Police Division,Bishan NPC
+2016,27.0,Tanglin Police Division,Bukit Timah NPC
+2016,32.0,Tanglin Police Division,Kampong Java NPC
+2016,124.0,Tanglin Police Division,Orchard NPC
+2016,49.0,Tanglin Police Division,Toa Payoh NPC
+2016,37.0,Ang Mo Kio Police Division,Ang Mo Kio North NPC
+2016,38.0,Ang Mo Kio Police Division,Ang Mo Kio South NPC
+2016,61.0,Ang Mo Kio Police Division,Hougang NPC
+2016,33.0,Ang Mo Kio Police Division,Punggol NPC
+2016,22.0,Ang Mo Kio Police Division,Sembawang NPC
+2016,42.0,Ang Mo Kio Police Division,Sengkang NPC
+2016,41.0,Ang Mo Kio Police Division,Serangoon NPC
+2016,45.0,Ang Mo Kio Police Division,Yishun North NPC
+2016,35.0,Ang Mo Kio Police Division,Yishun South NPC
+2016,92.0,Bedok Police Division,Bedok NPC
+2016,24.0,Bedok Police Division,Changi NPC
+2016,123.0,Bedok Police Division,Geylang NPC
+2016,44.0,Bedok Police Division,Marine Parade NPC
+2016,37.0,Bedok Police Division,Pasir Ris NPC
+2016,57.0,Bedok Police Division,Tampines NPC
+2016,49.0,Jurong Police Division,Bukit Batok NPC
+2016,38.0,Jurong Police Division,Bukit Panjang NPC
+2016,56.0,Jurong Police Division,Choa Chu Kang NPC
+2016,68.0,Jurong Police Division,Jurong West NPC
+2016,67.0,Jurong Police Division,Nanyang NPC
+2016,,Jurong Police Division,Woodlands NPC
+2016,51.0,Jurong Police Division,Woodlands East NPC
+2016,63.0,Jurong Police Division,Woodlands West NPC
+2016,,Woodlands Police Division,Woodlands East NPC
+2016,,Woodlands Police Division,Woodlands West NPC
+2016,,Woodlands Police Division,Yishun North NPC
+2016,,Woodlands Police Division,Yishun South NPC
+2016,,Woodlands Police Division,Sembawang NPC
+2016,,Woodlands Police Division,Checkpoint
+2017,89.0,Central Police Division,Bukit Merah East NPC
+2017,134.0,Central Police Division,Marina Bay NPC
+2017,89.0,Central Police Division,Rochor NPC
+2017,64.0,Clementi Police Division,Bukit Merah West NPC
+2017,50.0,Clementi Police Division,Clementi NPC
+2017,64.0,Clementi Police Division,Jurong East NPC
+2017,66.0,Clementi Police Division,Queenstown NPC
+2017,29.0,Tanglin Police Division,Bishan NPC
+2017,25.0,Tanglin Police Division,Bukit Timah NPC
+2017,38.0,Tanglin Police Division,Kampong Java NPC
+2017,158.0,Tanglin Police Division,Orchard NPC
+2017,51.0,Tanglin Police Division,Toa Payoh NPC
+2017,34.0,Ang Mo Kio Police Division,Ang Mo Kio North NPC
+2017,35.0,Ang Mo Kio Police Division,Ang Mo Kio South NPC
+2017,55.0,Ang Mo Kio Police Division,Hougang NPC
+2017,30.0,Ang Mo Kio Police Division,Punggol NPC
+2017,36.0,Ang Mo Kio Police Division,Sembawang NPC
+2017,72.0,Ang Mo Kio Police Division,Sengkang NPC
+2017,29.0,Ang Mo Kio Police Division,Serangoon NPC
+2017,61.0,Ang Mo Kio Police Division,Yishun North NPC
+2017,32.0,Ang Mo Kio Police Division,Yishun South NPC
+2017,86.0,Bedok Police Division,Bedok NPC
+2017,31.0,Bedok Police Division,Changi NPC
+2017,104.0,Bedok Police Division,Geylang NPC
+2017,35.0,Bedok Police Division,Marine Parade NPC
+2017,23.0,Bedok Police Division,Pasir Ris NPC
+2017,58.0,Bedok Police Division,Tampines NPC
+2017,50.0,Jurong Police Division,Bukit Batok NPC
+2017,30.0,Jurong Police Division,Bukit Panjang NPC
+2017,47.0,Jurong Police Division,Choa Chu Kang NPC
+2017,59.0,Jurong Police Division,Jurong West NPC
+2017,64.0,Jurong Police Division,Nanyang NPC
+2017,,Jurong Police Division,Woodlands NPC
+2017,60.0,Jurong Police Division,Woodlands East NPC
+2017,70.0,Jurong Police Division,Woodlands West NPC
+2017,,Woodlands Police Division,Woodlands East NPC
+2017,,Woodlands Police Division,Woodlands West NPC
+2017,,Woodlands Police Division,Yishun North NPC
+2017,,Woodlands Police Division,Yishun South NPC
+2017,,Woodlands Police Division,Sembawang NPC
+2017,,Woodlands Police Division,Checkpoint
+2018,97.0,Central Police Division,Bukit Merah East NPC
+2018,156.0,Central Police Division,Marina Bay NPC
+2018,94.0,Central Police Division,Rochor NPC
+2018,52.0,Clementi Police Division,Bukit Merah West NPC
+2018,40.0,Clementi Police Division,Clementi NPC
+2018,56.0,Clementi Police Division,Jurong East NPC
+2018,65.0,Clementi Police Division,Queenstown NPC
+2018,44.0,Tanglin Police Division,Bishan NPC
+2018,41.0,Tanglin Police Division,Bukit Timah NPC
+2018,33.0,Tanglin Police Division,Kampong Java NPC
+2018,185.0,Tanglin Police Division,Orchard NPC
+2018,50.0,Tanglin Police Division,Toa Payoh NPC
+2018,34.0,Ang Mo Kio Police Division,Ang Mo Kio North NPC
+2018,44.0,Ang Mo Kio Police Division,Ang Mo Kio South NPC
+2018,67.0,Ang Mo Kio Police Division,Hougang NPC
+2018,33.0,Ang Mo Kio Police Division,Punggol NPC
+2018,32.0,Ang Mo Kio Police Division,Sembawang NPC
+2018,61.0,Ang Mo Kio Police Division,Sengkang NPC
+2018,49.0,Ang Mo Kio Police Division,Serangoon NPC
+2018,64.0,Ang Mo Kio Police Division,Yishun North NPC
+2018,38.0,Ang Mo Kio Police Division,Yishun South NPC
+2018,88.0,Bedok Police Division,Bedok NPC
+2018,52.0,Bedok Police Division,Changi NPC
+2018,106.0,Bedok Police Division,Geylang NPC
+2018,39.0,Bedok Police Division,Marine Parade NPC
+2018,36.0,Bedok Police Division,Pasir Ris NPC
+2018,55.0,Bedok Police Division,Tampines NPC
+2018,62.0,Jurong Police Division,Bukit Batok NPC
+2018,46.0,Jurong Police Division,Bukit Panjang NPC
+2018,56.0,Jurong Police Division,Choa Chu Kang NPC
+2018,62.0,Jurong Police Division,Jurong West NPC
+2018,79.0,Jurong Police Division,Nanyang NPC
+2018,,Jurong Police Division,Woodlands NPC
+2018,51.0,Jurong Police Division,Woodlands East NPC
+2018,59.0,Jurong Police Division,Woodlands West NPC
+2018,2.0,Woodlands Police Division,Woodlands East NPC
+2018,7.0,Woodlands Police Division,Woodlands West NPC
+2018,6.0,Woodlands Police Division,Yishun North NPC
+2018,1.0,Woodlands Police Division,Yishun South NPC
+2018,2.0,Woodlands Police Division,Sembawang NPC
+2018,0.0,Woodlands Police Division,Checkpoint
+2019,73.0,Central Police Division,Bukit Merah East NPC
+2019,147.0,Central Police Division,Marina Bay NPC
+2019,84.0,Central Police Division,Rochor NPC
+2019,52.0,Clementi Police Division,Bukit Merah West NPC
+2019,48.0,Clementi Police Division,Clementi NPC
+2019,62.0,Clementi Police Division,Jurong East NPC
+2019,69.0,Clementi Police Division,Queenstown NPC
+2019,22.0,Tanglin Police Division,Bishan NPC
+2019,39.0,Tanglin Police Division,Bukit Timah NPC
+2019,35.0,Tanglin Police Division,Kampong Java NPC
+2019,156.0,Tanglin Police Division,Orchard NPC
+2019,69.0,Tanglin Police Division,Toa Payoh NPC
+2019,26.0,Ang Mo Kio Police Division,Ang Mo Kio North NPC
+2019,40.0,Ang Mo Kio Police Division,Ang Mo Kio South NPC
+2019,71.0,Ang Mo Kio Police Division,Hougang NPC
+2019,53.0,Ang Mo Kio Police Division,Punggol NPC
+2019,,Ang Mo Kio Police Division,Sembawang NPC
+2019,67.0,Ang Mo Kio Police Division,Sengkang NPC
+2019,27.0,Ang Mo Kio Police Division,Serangoon NPC
+2019,,Ang Mo Kio Police Division,Yishun North NPC
+2019,,Ang Mo Kio Police Division,Yishun South NPC
+2019,86.0,Bedok Police Division,Bedok NPC
+2019,22.0,Bedok Police Division,Changi NPC
+2019,89.0,Bedok Police Division,Geylang NPC
+2019,36.0,Bedok Police Division,Marine Parade NPC
+2019,32.0,Bedok Police Division,Pasir Ris NPC
+2019,56.0,Bedok Police Division,Tampines NPC
+2019,52.0,Jurong Police Division,Bukit Batok NPC
+2019,30.0,Jurong Police Division,Bukit Panjang NPC
+2019,71.0,Jurong Police Division,Choa Chu Kang NPC
+2019,51.0,Jurong Police Division,Jurong West NPC
+2019,59.0,Jurong Police Division,Nanyang NPC
+2019,,Jurong Police Division,Woodlands NPC
+2019,,Jurong Police Division,Woodlands East NPC
+2019,,Jurong Police Division,Woodlands West NPC
+2019,56.0,Woodlands Police Division,Woodlands East NPC
+2019,53.0,Woodlands Police Division,Woodlands West NPC
+2019,64.0,Woodlands Police Division,Yishun North NPC
+2019,18.0,Woodlands Police Division,Yishun South NPC
+2019,27.0,Woodlands Police Division,Sembawang NPC
+2019,0.0,Woodlands Police Division,Checkpoint
+2020,60.0,Central Police Division,Bukit Merah East NPC
+2020,77.0,Central Police Division,Marina Bay NPC
+2020,76.0,Central Police Division,Rochor NPC
+2020,54.0,Clementi Police Division,Bukit Merah West NPC
+2020,43.0,Clementi Police Division,Clementi NPC
+2020,46.0,Clementi Police Division,Jurong East NPC
+2020,60.0,Clementi Police Division,Queenstown NPC
+2020,19.0,Tanglin Police Division,Bishan NPC
+2020,29.0,Tanglin Police Division,Bukit Timah NPC
+2020,39.0,Tanglin Police Division,Kampong Java NPC
+2020,62.0,Tanglin Police Division,Orchard NPC
+2020,53.0,Tanglin Police Division,Toa Payoh NPC
+2020,35.0,Ang Mo Kio Police Division,Ang Mo Kio North NPC
+2020,13.0,Ang Mo Kio Police Division,Ang Mo Kio South NPC
+2020,51.0,Ang Mo Kio Police Division,Hougang NPC
+2020,43.0,Ang Mo Kio Police Division,Punggol NPC
+2020,,Ang Mo Kio Police Division,Sembawang NPC
+2020,56.0,Ang Mo Kio Police Division,Sengkang NPC
+2020,25.0,Ang Mo Kio Police Division,Serangoon NPC
+2020,,Ang Mo Kio Police Division,Yishun North NPC
+2020,,Ang Mo Kio Police Division,Yishun South NPC
+2020,64.0,Bedok Police Division,Bedok NPC
+2020,14.0,Bedok Police Division,Changi NPC
+2020,76.0,Bedok Police Division,Geylang NPC
+2020,36.0,Bedok Police Division,Marine Parade NPC
+2020,27.0,Bedok Police Division,Pasir Ris NPC
+2020,42.0,Bedok Police Division,Tampines NPC
+2020,46.0,Jurong Police Division,Bukit Batok NPC
+2020,36.0,Jurong Police Division,Bukit Panjang NPC
+2020,63.0,Jurong Police Division,Choa Chu Kang NPC
+2020,46.0,Jurong Police Division,Jurong West NPC
+2020,57.0,Jurong Police Division,Nanyang NPC
+2020,,Jurong Police Division,Woodlands NPC
+2020,,Jurong Police Division,Woodlands East NPC
+2020,,Jurong Police Division,Woodlands West NPC
+2020,47.0,Woodlands Police Division,Woodlands East NPC
+2020,43.0,Woodlands Police Division,Woodlands West NPC
+2020,59.0,Woodlands Police Division,Yishun North NPC
+2020,26.0,Woodlands Police Division,Yishun South NPC
+2020,46.0,Woodlands Police Division,Sembawang NPC
+2020,6.0,Woodlands Police Division,Checkpoint
+2021,65.0,Central Police Division,Bukit Merah East NPC
+2021,91.0,Central Police Division,Marina Bay NPC
+2021,73.0,Central Police Division,Rochor NPC
+2021,41.0,Clementi Police Division,Bukit Merah West NPC
+2021,32.0,Clementi Police Division,Clementi NPC
+2021,45.0,Clementi Police Division,Jurong East NPC
+2021,71.0,Clementi Police Division,Queenstown NPC
+2021,37.0,Tanglin Police Division,Bishan NPC
+2021,33.0,Tanglin Police Division,Bukit Timah NPC
+2021,45.0,Tanglin Police Division,Kampong Java NPC
+2021,66.0,Tanglin Police Division,Orchard NPC
+2021,49.0,Tanglin Police Division,Toa Payoh NPC
+2021,35.0,Ang Mo Kio Police Division,Ang Mo Kio North NPC
+2021,30.0,Ang Mo Kio Police Division,Ang Mo Kio South NPC
+2021,56.0,Ang Mo Kio Police Division,Hougang NPC
+2021,43.0,Ang Mo Kio Police Division,Punggol NPC
+2021,,Ang Mo Kio Police Division,Sembawang NPC
+2021,83.0,Ang Mo Kio Police Division,Sengkang NPC
+2021,39.0,Ang Mo Kio Police Division,Serangoon NPC
+2021,,Ang Mo Kio Police Division,Yishun North NPC
+2021,,Ang Mo Kio Police Division,Yishun South NPC
+2021,80.0,Bedok Police Division,Bedok NPC
+2021,31.0,Bedok Police Division,Changi NPC
+2021,73.0,Bedok Police Division,Geylang NPC
+2021,33.0,Bedok Police Division,Marine Parade NPC
+2021,33.0,Bedok Police Division,Pasir Ris NPC
+2021,57.0,Bedok Police Division,Tampines NPC
+2021,52.0,Jurong Police Division,Bukit Batok NPC
+2021,32.0,Jurong Police Division,Bukit Panjang NPC
+2021,61.0,Jurong Police Division,Choa Chu Kang NPC
+2021,63.0,Jurong Police Division,Jurong West NPC
+2021,53.0,Jurong Police Division,Nanyang NPC
+2021,,Jurong Police Division,Woodlands NPC
+2021,,Jurong Police Division,Woodlands East NPC
+2021,,Jurong Police Division,Woodlands West NPC
+2021,45.0,Woodlands Police Division,Woodlands East NPC
+2021,40.0,Woodlands Police Division,Woodlands West NPC
+2021,43.0,Woodlands Police Division,Yishun North NPC
+2021,27.0,Woodlands Police Division,Yishun South NPC
+2021,36.0,Woodlands Police Division,Sembawang NPC
+2021,4.0,Woodlands Police Division,Checkpoint
