@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+## Beasts: Police Station Finder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Problem Statement
 
-## Available Scripts
+Our solution addresses Theme 3 Subtheme 1: Strengthening domestic security requires exploring solutions that utilize crime data analysis and patrol route optimization. The problem statement is to design a solution that seamlessly integrates crime hotspots analysis with patrol route optimization, allowing law enforcement agencies to prioritize higher crime risk areas and shorten emergency response times.
 
-In the project directory, you can run:
+## How Does Our Hack Answer the Problem Statement?
 
-### `npm start`
+Our solution effectively addresses the problem statement by requiring input of the address where a crime has occurred. It then outputs the police stations that are nearest to it in terms of travel time. In situations where multiple crimes are happening simultaneously in the same area and one police station cannot handle all the incidents, our algorithm ensures efficient resource allocation. Each police station has a limit on the number of cases it can manage. If this limit is exceeded, the algorithm activates the next nearest police station to assist. This approach prevents situations where a manpower shortage at one station leads to longer emergency response times. By leveraging the Google Maps API, we optimize the route for the fastest possible response, ensuring that the emergency services arrive promptly.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How Did We Build Our Hack?
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+We built our hack using Python scripts and many libraries. We also used relevant datasets available online, such as the geojson of the Singapore map, the KML file of the police stations in Singapore, and past data on the number of cases dealt by each police station from 2011 to 2021.
 
-### `npm test`
+## Important Files in the Repository
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Datasets: Contains datasets used in the project.
+police-station-finder/src: Contains source code for the React app.
+combine.py: Python script to combine data from KML and geojson files.
+datacleaning.ipynb: Jupyter notebook for data cleaning.
+server.py: Backend server script.
+.env: Environment variables file.
+README.md: This file.
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To use the Police Station Finder:
+1 Clone the repository to your local machine.
+2 Navigate to the police-station-finder directory.
+3 Create a .env file in the root directory and add your Google Maps API key:
+REACT_APP_GOOGLE_MAPS_API_KEY=your_api_key_here
+##Replace your_api_key_here with your actual Google Maps API key.
+4 Install dependencies using npm install.
+5 Start the backend server using python server.py.
+6 Start the React app using npm start.
+7 Enter the address where the crime has occurred in the form field and submit.
+8 View the top 3 closest police stations and their travel times.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Dataset
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The dataset used includes:
+cleaned_crime_data.csv
+FivePreventableCrimeCasesRecordedByNeighbourhoodPoliceCentreNPCAnnual.csv
+new.geojson
+policestations.json
+singapore_with_police_stations.geojson
+SingaporePoliceForceNPCBoundary.geojson
+SPFBoundaries.kml
+SPFEstablishments.kml
 
-### `npm run eject`
+## Contributors
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+xaviersh0129
+EyuGongYi
+kziyang1207
+yolotouch

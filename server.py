@@ -8,6 +8,7 @@ import ssl
 import certifi
 from bs4 import BeautifulSoup
 from dotenv import load_dotenv
+import pandas as pd
 
 app = Quart(__name__)
 app = cors(app)
@@ -18,6 +19,18 @@ api_key = os.getenv('API_KEY')
 geojson_file_path = 'Datasets/singapore_with_police_stations.geojson'
 with open(geojson_file_path, 'r') as f:
     geojson_data = geojson.load(f)
+
+# Load the historical crime data
+crime_data_file_path = 'Datasets/cleaned_crime_data.csv'
+crime_data = pd.read_csv(crime_data_file_path)
+
+# Calculate the average number of cases per year for each police station
+crime_data = crime_data.dropna(subset=['value'])  # Remove rows with missing values
+crime_data['value'] = crime_data['value'].astype(float)  # Ensure 'value' is float
+average_cases = crime_data.groupby('NPC')['value'].mean().to_dict()
+
+# Set a threshold limit (e.g., maximum average cases per year)
+case_limit = 100  # This can be adjusted based on your criteria
 
 def extract_name(description):
     soup = BeautifulSoup(description, 'html.parser')
@@ -34,7 +47,8 @@ for feature in geojson_data['features']:
         coordinates = feature['geometry']['coordinates']
         description = feature['properties'].get('Description', '')
         name = extract_name(description)
-        police_stations.append((coordinates[1], coordinates[0], name))
+        if average_cases.get(name, 0) <= case_limit:
+            police_stations.append((coordinates[1], coordinates[0], name))
 
 def chunk_list(lst, chunk_size):
     for i in range(0, len(lst), chunk_size):

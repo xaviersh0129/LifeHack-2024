@@ -1,0 +1,40 @@
+.results-title {
+    margin-top: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .submitted-address {
+    font-style: italic;
+    margin-bottom: 15px;
+  }
+  
+  .no-results {
+    font-size: 18px;
+    color: #777;
+  }
+  
+  .results-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .result-item {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .station-name {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .station-address, .travel-time {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  

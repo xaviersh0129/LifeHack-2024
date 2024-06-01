@@ -1,90 +1,33 @@
-/* App.css */
-
-/* Apply styles to the entire app container */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
 }
 
-/* Style the header */
-header {
-  background-color: #282c34;
-  color: white;
-  padding: 20px;
+.app-container {
   text-align: center;
 }
 
-/* Style the form container */
+.app-header {
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+}
+
+.app-title {
+  margin: 0;
+}
+
 .form-container {
   margin: 20px auto;
   max-width: 400px;
   padding: 20px;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Style the form elements */
-.form-container h2 {
-  margin-bottom: 15px;
-  font-size: 24px;
-  color: #333;
-}
-
-.form-container form {
-  display: flex;
-  flex-direction: column;
-}
-
-.form-container label {
-  font-weight: bold;
-  margin-bottom: 8px;
-}
-
-.form-container input[type="text"] {
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 16px;
-}
-
-.form-container button {
-  padding: 10px 20px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s ease;
-}
-
-.form-container button:hover {
-  background-color: #0056b3;
-}
-
-/* Style the results container */
 .results-container {
   margin: 20px auto;
   max-width: 800px;
-}
-
-/* Style the individual result item */
-.result-item {
-  background-color: #f0f0f0;
-  border-radius: 8px;
-  padding: 15px;
-  margin-bottom: 15px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}
-
-.result-item h3 {
-  margin: 0 0 10px 0;
-  font-size: 18px;
-}
-
-.result-item p {
-  margin: 0;
-  font-size: 16px;
 }

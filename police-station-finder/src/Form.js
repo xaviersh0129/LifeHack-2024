@@ -13,7 +13,9 @@ const Form = ({ onSubmit }) => {
 
   return (
     <form onSubmit={handleSubmit}>
+      <label htmlFor="address">Enter Address:</label>
       <input
+        id="address"
         type="text"
         placeholder="Enter address"
         value={address}
